@@ -13,6 +13,9 @@ namespace ConsoleAppGit11
             Console.WriteLine("Введите значение x: ");
             double x = Convert.ToDouble(Console.ReadLine());
             double result = Math.Sin(x) - (2* Math.Cos(x));
+            Console.WriteLine("Результат вычислений: " + result);
+            Console.WriteLine("Илюшко С.А.");
+            Console.ReadKey();
         }
     }
 }
