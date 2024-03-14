@@ -10,6 +10,8 @@ namespace ConsoleAppGit11
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите значение x: ");
+            double x = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
